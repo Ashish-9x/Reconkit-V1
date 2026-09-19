@@ -1,0 +1,19 @@
+# Generated scan reports (contain target-specific recon data — don't commit)
+reports/*
+!reports/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
